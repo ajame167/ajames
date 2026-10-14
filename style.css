@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: 1px solid #ccc;
+}
+
+#main-title {
+    color: darkblue;
+}
+
+nav a:hover {
+    background-color: #0078d4;
+    color: white;
+}
+``
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+section {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
