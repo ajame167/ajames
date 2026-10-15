@@ -57,3 +57,7 @@ body {
 .concepts-page h1 {
     text-align: center;
 }
+
+.about-page p {
+    font-size: 22px;
+}
