@@ -64,3 +64,7 @@ body {
 .table-of-contents li {
     line-height: 2;
 }
+
+.architecture-page {
+    background-color: orange;
+}
