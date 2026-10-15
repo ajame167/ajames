@@ -68,3 +68,7 @@ body {
 .architecture-page {
     background-color: #ffff;
 }
+
+.references li {
+    line-height: 2;
+}
