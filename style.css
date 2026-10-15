@@ -48,3 +48,8 @@ body {
 .home-title {
     text-align: center;
 }
+
+/* Architecture page styling */
+.architecture-page {
+    font-size: 20px;
+}
