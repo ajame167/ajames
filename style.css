@@ -61,3 +61,11 @@ body {
 .about-page p {
     font-size: 22px;
 }
+
+.key-terms li {
+    line-height: 2;
+}
+
+.table-of-contents li {
+    line-height: 2;
+}
