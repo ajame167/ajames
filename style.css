@@ -51,5 +51,9 @@ body {
 
 /* Architecture page styling */
 .architecture-page {
-    font-size: 20px;
+    font-size: 40px;
+}
+
+.concepts-page h1 {
+    text-align: center;
 }
