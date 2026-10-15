@@ -85,3 +85,8 @@ body {
 .about-page {
     background-color: white;
 }
+
+.history-page h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
