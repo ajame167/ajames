@@ -1,5 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f7fa;
+    color: #333;
 }
 
 .card {
@@ -10,15 +15,26 @@ body {
     color: darkblue;
 }
 
+nav {
+    background-color: #1f4e79;
+    padding: 15px;
+    border-radius: 8px;
+}
+
 nav a:hover {
     background-color: #0078d4;
     color: white;
+    border-radius: 5px;
+
 }
 
 nav ul {
     display: flex;
     gap: 20px;
+    list-style: none;
+    justify-content: center;
 }
+
 
 .grid-container {
     display: grid;
@@ -27,9 +43,11 @@ nav ul {
 }
 
 section {
-    margin: 15px;
+    background: white;
+    border-radius: 8px;
     padding: 20px;
-    border: 1px solid gray;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 body {
@@ -89,4 +107,25 @@ body {
 .history-page h2 {
     border-bottom: 2px solid black;
     padding-bottom: 5px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+ 
+table,
+th,
+td {
+border: 1px solid #ccc;
+}
+ 
+th {
+background-color: #1f4e79;
+color: white;
+}
+ 
+th,
+td {
+padding: 10px;
 }
